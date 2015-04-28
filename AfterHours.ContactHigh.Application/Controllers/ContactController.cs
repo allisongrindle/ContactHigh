@@ -5,13 +5,26 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
+using AfterHours.ContactHigh.Domain.Contact;
+
 namespace AfterHours.ContactHigh.Controllers
 {
     public class ContactController : ApiController
     {
+
+        IContactRepository _contactRepo;
+
+        public ContactController(IContactRepository contactRepo)
+        {
+            _contactRepo = contactRepo;
+        }
+
         // GET api/contact
         public IEnumerable<string> Get()
         {
+            var contacts = _contactRepo.GetContacts();
+
+
             return new string[] { "value1", "value2" };
         }
 
