@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfterHours.ContactHigh", "AfterHours.ContactHigh\AfterHours.ContactHigh.csproj", "{D587AC9F-B05F-4D84-9C43-3DF800FED5E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfterHours.ContactHigh.Application", "AfterHours.ContactHigh\AfterHours.ContactHigh.Application.csproj", "{D587AC9F-B05F-4D84-9C43-3DF800FED5E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8EE4DE61-E2E7-4601-87E1-E30F2E999333}"
 	ProjectSection(SolutionItems) = preProject
