@@ -10,7 +10,6 @@ namespace AfterHours.ContactHigh.Infrastructure
 {
     public class IoC : NinjectModule
     {
-
         public override void Load()
         {
             Bind<IContactRepository>().To<MSSQLContactRepository>();
