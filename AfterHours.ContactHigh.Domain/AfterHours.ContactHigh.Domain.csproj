@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Domain.cs" />
     <Compile Include="Contact\Contact.cs" />
     <Compile Include="Contact\IContactRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
